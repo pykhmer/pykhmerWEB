@@ -1,0 +1,53 @@
+{% load cms_tags menu_tags %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="author" content="realitysoftware.ca" />
+		<title></title>
+		<link href="http://fonts.googleapis.com/css?family=Hanuman:regular,bold&subset=khmer" rel="stylesheet" type="text/css" >
+		<link rel="stylesheet" type="text/css" href="/site_media/cms/css/style.css"/>
+	</head>
+
+	<body>
+
+	<div id="container">
+
+		<div id="header">
+			 <img src="{{ CMS_MEDIA_URL }}images/pykhmer.jpg" alt="Cambodian Python Group"/>
+		</div><!-- End of header -->
+		<div id="navcontainer">
+				<ul id="navlist">
+					{% show_menu 0 100 100 100 "menu/menu.html" %}
+				</ul>
+		</div><!-- End of menu -->
+
+		<div id="sidebar">
+			<ul id="nav-sidebar">
+				<li><a href="/en/documentation/2.0/installation/">Installation</a></li>
+				<li><a href="/en/documentation/2.0/configuration/">Configuration</a></li>
+				<li><a href="/en/documentation/2.0/plugins/">Plugins</a></li>
+				<li><a href="/en/documentation/2.0/custom_plugins/">Custom Plugins</a></li>
+
+				<li><a href="/en/documentation/2.0/navigation/">Navigation</a></li>
+				<li><a href="/en/documentation/2.0/i18n/">Internationalization</a></li>
+				<li><a href="/en/documentation/2.0/sitemap/">Sitemap</a></li>
+				<li><a href="/en/documentation/2.0/contribution/">Contribution</a></li>
+			</ul>
+
+		</div><!-- End of sidebar -->
+
+		<div id="main">
+			{% block base_content %}
+			{% endblock %}
+		</div><!-- End of main -->
+
+		<div id="footer">
+			&copy;2010 PyKhmer |&nbsp;<span class="separator">|</span>&nbsp; Powered by 
+			<a href="http://www.django-cms.org">Django-cms</a>
+		</div><!-- End of footer -->
+
+	</div> <!-- End of container -->
+
+	</body>
+</html>
