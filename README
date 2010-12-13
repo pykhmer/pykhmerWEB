@@ -1,0 +1,42 @@
+Now I just finished the pykhmer website 80% done and published on
+https://github.com/.
+
+In this milestone (Called milestone1) woks fine with  the base
+functionality of Django-CMS:
+**********************
+    1-100% using django-CMS.(python,Django Framework)
+    2-Currently I am using Sqlite.of cause you can use other
+(Mysql,Postgres...)
+    3-Template layout (html+css+js) have already defined (keep it
+simple).
+
+So you can check or clone from the expository(https://github.com/
+pykhmer/pykhmerWEB) with the following address:
+
+git@github.com:pykhmer/pykhmerWEB.git
+I am using git so of cause you need the git software(download+install)
+Read http://help.github.com/win-git-installation/ to know more about
+git,
+
+In the next milestone it will commit by all of you .and we hope to get
+the new version.
+
+Please checkout the project and continue with the next milestone:
+@TODO
+
+MileStone2
+   1-Add Blog Plugin
+   2-Added forum.
+
+MileStone3
+   1-Populate data.
+   2-Testing
+   3-Install to BlueHost.
+   4- Final Test. 
+
+INSTALLATION:
+ Python
+ Django
+ Django-CMS
+ Thirt-party packages
+
