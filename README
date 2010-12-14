@@ -40,3 +40,7 @@ INSTALLATION:
  Django-CMS
  Thirt-party packages
 
+
+Administrator:
+username: admin
+password: 123456789
