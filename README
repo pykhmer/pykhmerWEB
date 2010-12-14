@@ -25,7 +25,7 @@ Please checkout the project and continue with the next milestone:
 @TODO
 
 MileStone2
-   1-Add Blog Plugin
+   1-Add Blog Plugin (http://django-blog-zinnia.com) Priority
    2-Added forum.
 
 MileStone3
@@ -38,6 +38,7 @@ INSTALLATION:
  Python
  Django
  Django-CMS
+ django-blog-zinnia >>> It is good webblog
  Thirt-party packages
 
 
