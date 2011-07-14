@@ -10,7 +10,7 @@ functionality of Django-CMS:
     3-Template layout (html+css+js) have already defined (keep it
 simple).
 
-So you can check or clone from the expository(https://github.com/
+So you can check or clone from the repository(https://github.com/
 pykhmer/pykhmerWEB) with the following address:
 
 git@github.com:pykhmer/pykhmerWEB.git
